@@ -1,0 +1,35 @@
+/*seletor universal
+*/
+*{
+background-color: cyan;
+
+}
+/*seeletor de tags, aplica as regras a tag*/
+
+body{ 
+    min-height: 800px;
+}
+span, a{
+background-color: white;
+}
+
+/*seletor de classes, aplica a todas as tags que contenham aquela classe*/
+
+.classediv1{
+    background-color: red;
+}
+.classediv2{
+    background-color: blue;
+padding: 15px; /*dentro da tag*/
+}
+.classediv3{
+    background-color: brown;
+/*margin: 15px: fora da tag as 4 dimensões*/
+    margin: 20px; 
+
+}
+/*# - seletor por ID*/
+
+#paragrafo{
+    background-color: violet;
+}
